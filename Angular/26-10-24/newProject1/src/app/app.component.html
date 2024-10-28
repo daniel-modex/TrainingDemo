@@ -1,0 +1,42 @@
+<header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block fixed-top mask-custom shadow-0 border-bottom" >
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand nav-link"  routerLink="">
+        <strong>Student</strong>
+      </a>
+     
+      <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-weight: 500;color: #fc9b9b;">
+          <li class="nav-item ">
+            <a class="nav-link"  routerLink="list">List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="add-new" >Add New</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="details">Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="update">Update</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="delete">Delete</a>
+          </li>
+        </ul>
+
+        
+      </div>
+    </div>
+  </nav>
+  
+</header>
+
+<div class="d-flex justify-content-center align-items-center ">
+  <div>
+    <router-outlet/>
+  </div>
+
+</div>
+

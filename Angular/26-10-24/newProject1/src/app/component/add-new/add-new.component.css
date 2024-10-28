@@ -1,0 +1,34 @@
+@property --angle{
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0deg;
+}
+
+.custom-container{
+   
+    border: 2px solid #ffffff98;
+    padding: 10px;
+    background-color: #ebe9e952;
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+}
+
+
+h1{
+    position: relative;
+}
+.custom-text{
+  margin-top: 100px;
+    background: linear-gradient(to right,#ffffff, #5a739c,#094882, #5a739c,#ffffff); /* Define your gradient colors */
+    -webkit-background-clip: text; /* For WebKit browsers */
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent */
+    font-size: 4rem; /* Adjust size as needed */
+    text-align: center;
+    background-size: 200%;
+    animation: activetext 4s infinite linear;
+}
+@keyframes activetext {
+    To{
+        background-position: 200%;
+    }
+}
